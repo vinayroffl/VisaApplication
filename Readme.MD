@@ -47,9 +47,9 @@ header.
 
 |Id | Username  |  Email         | Password  |  Roles   |
 | ---| --- |---|---|---|
-|1 |  Daniel  |  <daniel123@gmail.com> | pass1   |  OFFICER |
-|2 |  Alice   |  <alice456@gmail.com>  | pass2   |  USER  |
-|3 |  Jack    |  <jack789@gmail.com>   | pass3   |  USER  |
+|1 |  Drake  |  <drake60@gmail.com> | pass1   |  OFFICER |
+|2 |  Elizabeth   |  <eli18@gmail.com>  | pass2   |  USER  |
+|3 |  John    |  <johney@gmail.com>   | pass3   |  USER  |
 
 ### EndPoints
 
@@ -61,7 +61,7 @@ header.
 
   ```json
   {
-  "email": "daniel123@gmail.com",
+  "email": "drake60@gmail.com",
   "password": "pass1"
   }
   ```
@@ -70,7 +70,7 @@ header.
 
   ```json
   {
-  "username": "Daniel",
+  "username": "Drake",
   "token": "token"
   }
   ```
@@ -229,7 +229,7 @@ public class AuthenticationRequest {
     this.password = password;
   }
   
-  
+
   
   public String getEmail() {
     return email;
