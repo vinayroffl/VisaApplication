@@ -151,7 +151,6 @@ header.
   **Request:**
 
   ```json
-  REQUEST:
   {
   "status":""
   }
@@ -177,7 +176,7 @@ header.
   If the given id not found, then return with status code 404.
   If the authenticated user didn’t have role OFFICER, then return status code 401.
 
-- ```visa/delete/{"":id}``` **Delete Method** (users who are authenticated, and he/she needs to have role **“USER”**)
+- ```visa/delete/{"":id}``` **Delete Method** (accessed by users who are authenticated, and he/she needs to have role **“USER”**)
 
   **Note: This method requires authentication.**
 
